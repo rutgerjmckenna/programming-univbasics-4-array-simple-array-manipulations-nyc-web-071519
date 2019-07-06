@@ -50,7 +50,7 @@ def using_flatten(instruments)
   p flat_array
 end
 
-def using_delete(instructors, "Stephen")
+def using_delete(instructors, "Steven")
   
 end
 
