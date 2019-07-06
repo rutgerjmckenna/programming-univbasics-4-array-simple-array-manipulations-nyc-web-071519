@@ -56,6 +56,6 @@ def using_delete(instructors)
 end
 
 def using_delete_at(famous_robots)
-  famous_robots.delete_at(2)
-  
+  deleted_robot = famous_robots.delete_at(2)
+  p deleted_robot
 end
