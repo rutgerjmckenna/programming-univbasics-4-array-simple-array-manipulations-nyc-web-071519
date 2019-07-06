@@ -45,8 +45,9 @@ def using_uniq(haircuts)
   p new_array
 end
 
-def using_flatten
-  
+def using_flatten(instruments)
+  flat_array = instruments.flatten 
+  p flat_array
 end
 
 def using_delete
