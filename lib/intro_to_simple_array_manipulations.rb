@@ -36,7 +36,8 @@ def using_concat(my_favorite_things, more_faves)
 end 
 
 def using_insert(list_of_programming_languages, another_language)
-  new_array = list_of_programming_languages.insert 
+  new_array = list_of_programming_languages.insert(4, another_language)
+  p new_array
 end
 
 def using_uniq
